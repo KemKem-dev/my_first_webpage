@@ -5,6 +5,12 @@
     --primary-font: 'Baloo Thambi 2';
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -15,7 +21,8 @@ body {
     background-image: url('1.png'), url('2.png'), url('3.png'), url('last.png');
     background-position: top 2px left 2px, top 2px right 2px, bottom 2px left 2px, bottom 2px right 2px;
     background-repeat: no-repeat;
-    background-size: 180px;
+    background-size: 140px;
+    background-attachment: fixed;
 }
 
 .logo {
@@ -31,13 +38,10 @@ body {
 
 .form-box {
     background-color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
     border: none;
     border-radius: 20px 20px 20px 0px;
-    margin-top: 18rem;
+    margin: 2rem auto 0;
     width: 38%;
     padding: 1rem;
 }
@@ -71,7 +75,7 @@ label {
 }
 
 .field input {
-    width: 80%;
+    width: 90%;
     outline: none;
     padding: 20px;
     border: none;
