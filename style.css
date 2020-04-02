@@ -19,9 +19,9 @@ body {
     background: var(--primary-color);
     height: 100vh;
     background-image: url('1.png'), url('2.png'), url('3.png'), url('last.png');
-    background-position: top 2px left 2px, top 2px right 2px, bottom 2px left 2px, bottom 2px right 2px;
+    background-position: top -50px left -40px, top -50px right -40px, bottom -40px left -60px, bottom -40px right -60px;
     background-repeat: no-repeat;
-    background-size: 140px;
+    background-size: 180px;
     background-attachment: fixed;
 }
 
