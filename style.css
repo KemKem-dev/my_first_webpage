@@ -128,9 +128,6 @@ select {
     pointer-events: none;
 }
 
-
-
-
 .btn {
     display: inline-block;
     background: var(--primary-color);
