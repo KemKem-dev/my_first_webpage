@@ -21,7 +21,7 @@ body {
     background-image: url('1.png'), url('2.png'), url('3.png'), url('last.png');
     background-position: top -50px left -40px, top -50px right -40px, bottom -40px left -60px, bottom -40px right -60px;
     background-repeat: no-repeat;
-    background-size: 180px;
+    background-size: 200px;
     background-attachment: fixed;
 }
 
@@ -90,21 +90,46 @@ label {
     color: #333;
 }
 
-#dropdown-menu {
-    width: 88%;
-    outline: none;
-    padding: 30px;
-    border: none;
-    font-size: 1.4rem;
-    border-radius: 5px;
+select {
+    width: 95%;
     background: #ebf4fa;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    color: rgb (84, 87, 92);
+    font-size: 1.2rem;
     margin-left: 1.5rem;
-    margin-bottom: 10px;
 }
 
-#dropdown-menu:hover {
-    cursor: pointer;
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
+
+.selectdiv {
+    position: relative;
+}
+
+.selectdiv:after {
+    content: '\f054';
+    font-family: FontAwesome;
+    font-size: 14px;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 19px;
+    top: 45%;
+    padding: 5px 5px;
+    border-bottom: 1px solid #999;
+    position: absolute;
+    pointer-events: none;
+}
+
+
+
 
 .btn {
     display: inline-block;
@@ -119,6 +144,7 @@ label {
     outline: none;
     border-radius: 5px 5px 5px 0px;
     text-decoration: none;
+    margin-top: 25px;
 }
 
 .btn:hover {
@@ -136,9 +162,8 @@ label {
     justify-content: center;
     text-transform: uppercase;
     border-radius: 10px 10px 10px 0px;
-    margin-top: 10px;
     margin-bottom: 1rem;
-    margin-left: 3rem;
+    margin-left: 3.6rem;
 }
 
 .login {
@@ -148,6 +173,7 @@ label {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .login a {
