@@ -200,7 +200,7 @@ select {
         text-align: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .form-wrapper {
         text-align: center;
@@ -213,7 +213,7 @@ select {
     .btn,
     .btn-xl {
         font-size: 1.3rem;
-        margin-left: 4.8rem;
+        margin-left: 5.1rem;
     }
     .f-label {
         margin-top: 38px;
