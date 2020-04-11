@@ -177,3 +177,56 @@ select {
     color: #fff;
     text-decoration: none;
 }
+
+
+@media (max-width: 1080px) {
+    .logo {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 100px;
+        font-weight: bold;
+        margin-top: 10rem;
+        margin-inline-start: 22rem;
+        color: #fff;
+    }
+    .form-box {
+        width: 80%;
+        margin-top: 80px;
+        align-self: center;
+    }
+    .login {
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    .form-wrapper {
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .field label {
+        margin-right: auto;
+    }
+    .btn,
+    .btn-xl {
+        font-size: 1.3rem;
+        margin-left: 4.8rem;
+    }
+    .f-label {
+        margin-top: 38px;
+    }
+    .selectdiv:after {
+        font-size: 2rem;
+    }
+    .field input {
+        width: 95%;
+        outline: none;
+        padding: 25px;
+        border: none;
+        font-size: 1.3rem;
+        border-radius: 10px;
+    }
+}
